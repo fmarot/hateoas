@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.zenika.web;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
@@ -27,10 +24,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.zenika.model.Contact;
 import com.zenika.repository.ContactRepository;
 
-/**
- * @author acogoluegnes
- *
- */
 @Controller
 @RequestMapping("/contacts")
 public class ContactController {

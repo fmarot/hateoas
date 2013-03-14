@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.zenika.web;
 
 import java.util.Iterator;
@@ -13,10 +10,6 @@ import org.springframework.hateoas.ResourceSupport;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 
-/**
- * @author acogoluegnes
- *
- */
 public class PageResource<T> extends ResourceSupport implements Page<T> {
 	
 	private final Page<T> page;

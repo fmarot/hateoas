@@ -1,4 +1,1 @@
-hateoas
-=======
-
-Code samples to implement HATEOAS with Spring MVC
+Derived from  a work by acogoluegnes
